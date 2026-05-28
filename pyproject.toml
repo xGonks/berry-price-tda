@@ -22,6 +22,7 @@ dependencies = [
     "requests",
     "beautifulsoup4",
     "python-dotenv",
+    "giotto-tda",
 ]
 
 [tool.setuptools.packages.find]

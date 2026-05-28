@@ -24,6 +24,7 @@ dependencies = [
     "python-dotenv",
     "giotto-tda",
     "ripser",
+    "nbformat",
 ]
 
 [tool.setuptools.packages.find]

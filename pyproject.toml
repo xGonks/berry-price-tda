@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "berry-price-tda"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "scikit-learn",
+    "sympy",
+    "ipykernel",
+    "tqdm",
+    "joblib",
+    "requests",
+    "beautifulsoup4",
+    "python-dotenv",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

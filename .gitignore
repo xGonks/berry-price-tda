@@ -1,0 +1,35 @@
+# python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# build files
+build/
+dist/
+*.egg-info/
+
+# testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# vscode
+.vscode/
+.idea/
+*.code-workspace
+
+# environment variables
+.env
+
+# os files
+.DS_Store
+Thumbs.db

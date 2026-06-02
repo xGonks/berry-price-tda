@@ -26,6 +26,8 @@ dependencies = [
     "ripser",
     "nbformat",
     "pandas-datareader",
+    "statsmodels",
+    "prophet",
 ]
 
 [tool.setuptools.packages.find]

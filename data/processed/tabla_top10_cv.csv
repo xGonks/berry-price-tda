@@ -1,0 +1,11 @@
+configuracion,mae_mean,mae_std,rmse_mean,r2_mean
+ElasticNet|w12|standard|ppi_+dies+mxn_|tda|isolation,20.891,6.296,28.538,0.394
+ElasticNet|w12|standard|ppi_+dies+mxn_|isolation,20.891,6.296,28.538,0.394
+ElasticNet|w12|standard|ppi_+mxn_|tda|isolation,20.891,6.296,28.538,0.394
+ElasticNet|w12|standard|ppi_+mxn_|isolation,20.891,6.296,28.538,0.394
+KNN|w24|none|ppi_+mxn_|isolation,21.012,5.643,28.01,0.427
+KNN|w24|standard|ppi_+mxn_|isolation,21.012,5.643,28.01,0.427
+KNN|w24|none|cpi_+dies+mxn_|isolation,21.043,5.925,28.249,0.415
+KNN|w24|standard|cpi_+dies+mxn_|isolation,21.043,5.925,28.249,0.415
+KNN|w24|standard|ppi_+dies+mxn_|isolation,21.155,5.444,27.99,0.43
+KNN|w24|none|ppi_+dies+mxn_|isolation,21.155,5.444,27.99,0.43

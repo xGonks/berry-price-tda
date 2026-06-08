@@ -1,0 +1,7 @@
+modelo,window,transform,exog,estrategia,mae,rmse,mape,r2
+LinearRegression,12,log_diff,none,exclude,29.701,37.11,21.465,0.468
+Ridge,12,log_diff,none,exclude,29.79,37.093,21.519,0.469
+KNN,12,log_diff,none,exclude,32.223,41.717,23.208,0.328
+GradientBoosting,12,log_diff,none,exclude,36.765,48.129,27.156,0.106
+ElasticNet,12,log_diff,none,exclude,37.591,45.604,26.823,0.197
+Lasso,12,log_diff,none,exclude,41.864,51.686,29.771,-0.031

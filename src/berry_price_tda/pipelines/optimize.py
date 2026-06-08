@@ -36,7 +36,7 @@ from .evaluate import RunConfig, count_features, evaluate_config, evaluate_confi
 warnings.filterwarnings("ignore")
 
 # Ventanas GRANDES unicamente
-LARGE_WINDOWS = [24, 36, 48]
+LARGE_WINDOWS = [12, 24, 36, 48]
 SEARCH_TRANSFORMS = ["none", "standard", "diff", "log_diff", "seasonal_diff"]
 # Estrategias reducidas a las que tienen sentido (se quito isolation por agresiva;
 # se puede reactivar pasando search_strategies)

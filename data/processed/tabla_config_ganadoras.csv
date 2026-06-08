@@ -1,0 +1,3 @@
+escenario,label,model_name,window,transform,strategy,use_tda,mae,rmse,mape,r2
+sin exog,Ridge|w12|log_diff|noexog|exclude,Ridge,12,log_diff,exclude,False,29.79,37.093,21.519,0.469
+con exog,Lasso|w12|standard|ppi_|dummy,Lasso,12,standard,dummy,False,30.004,37.786,21.792,0.449

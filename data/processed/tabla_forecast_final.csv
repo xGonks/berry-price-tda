@@ -1,0 +1,4 @@
+modelo,MAE,RMSE,MAPE (%),R2
+Mejor sin exog,29.79,37.09,21.52,0.469
+Mejor con exog,30.0,37.79,21.79,0.449
+Mejor estadistico (CV),31.94,41.03,21.78,0.35

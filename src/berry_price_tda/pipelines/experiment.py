@@ -41,7 +41,7 @@ from .evaluate import RunConfig, evaluate_config
 
 warnings.filterwarnings("ignore")
 
-LARGE_WINDOWS = [24, 36, 48]
+LARGE_WINDOWS = [12, 24, 36, 48]
 ALL_TRANSFORMS_EXP = ["none", "standard", "diff", "log_diff", "seasonal_diff"]
 
 
@@ -133,6 +133,8 @@ def run_full_factorial(
     # Reanudacion desde checkpoint
     done_labels = set()
     existing_rows = []
+    if checkpoint:
+        Path(checkpoint).parent.mkdir(parents=True, exist_ok=True)
     if checkpoint and Path(checkpoint).exists():
         prev = pd.read_csv(checkpoint)
         existing_rows = prev.to_dict("records")

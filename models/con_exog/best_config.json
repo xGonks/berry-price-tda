@@ -1,20 +1,19 @@
 {
-  "label": "KNN|w24|none|ppi_+mxn_",
-  "model_name": "KNN",
-  "window": 24,
-  "transform": "none",
+  "label": "Lasso|w12|standard|ppi_|dummy",
+  "model_name": "Lasso",
+  "window": 12,
+  "transform": "standard",
   "exog_cols": [
-    "ppi_fertilizers",
-    "mxn_usd"
+    "ppi_fertilizers"
   ],
   "use_tda": false,
-  "strategy": "none",
+  "strategy": "dummy",
   "embedding_dim": 6,
   "time_delay": 2,
   "test_metrics": {
-    "mae": 31.209453846153846,
-    "rmse": 40.02790074385616,
-    "mape": 22.060029965759636,
-    "r2": 0.3815403840068956
+    "mae": 30.0037992341825,
+    "rmse": 37.78647288683387,
+    "mape": 21.792390326637385,
+    "r2": 0.448864445674216
   }
 }

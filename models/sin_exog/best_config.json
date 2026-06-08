@@ -1,0 +1,17 @@
+{
+  "label": "KNN|w24|none|noexog",
+  "model_name": "KNN",
+  "window": 24,
+  "transform": "none",
+  "exog_cols": [],
+  "use_tda": false,
+  "strategy": "none",
+  "embedding_dim": 6,
+  "time_delay": 2,
+  "test_metrics": {
+    "mae": 31.076288461538468,
+    "rmse": 39.867647781561125,
+    "mape": 21.85902639038604,
+    "r2": 0.3864825163050749
+  }
+}

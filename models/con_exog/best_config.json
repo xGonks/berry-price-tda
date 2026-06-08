@@ -1,0 +1,20 @@
+{
+  "label": "KNN|w24|none|ppi_+mxn_",
+  "model_name": "KNN",
+  "window": 24,
+  "transform": "none",
+  "exog_cols": [
+    "ppi_fertilizers",
+    "mxn_usd"
+  ],
+  "use_tda": false,
+  "strategy": "none",
+  "embedding_dim": 6,
+  "time_delay": 2,
+  "test_metrics": {
+    "mae": 31.209453846153846,
+    "rmse": 40.02790074385616,
+    "mape": 22.060029965759636,
+    "r2": 0.3815403840068956
+  }
+}
